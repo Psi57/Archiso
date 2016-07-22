@@ -1,0 +1,13 @@
+[Desktops]
+Number=2
+Rows=1
+
+[Windows]
+BorderlessMaximizedWindows=true
+
+[org.kde.kdecoration2]
+BorderSize=None
+ButtonsOnLeft=FBL
+ButtonsOnRight=HSIAX
+CloseOnDoubleClickOnMenu=false
+library=org.kde.breeze

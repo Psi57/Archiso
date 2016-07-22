@@ -1,0 +1,145 @@
+[PlasmaViews][Panel 1][Horizontal2048]
+thickness=21
+
+[PlasmaViews][Panel 1][Horizontal1920]
+thickness=21
+
+[PlasmaViews][Panel 1][Horizontal1916]
+thickness=21
+
+[PlasmaViews][Panel 1][Horizontal1900]
+thickness=21
+
+[PlasmaViews][Panel 1][Horizontal1680]
+thickness=21
+
+[PlasmaViews][Panel 1][Horizontal1600]
+thickness=21
+
+[PlasmaViews][Panel 1][Horizontal1440]
+thickness=21
+
+[PlasmaViews][Panel 1][Horizontal1200]
+thickness=21
+
+[PlasmaViews][Panel 1][Horizontal1280]
+thickness=21
+
+[PlasmaViews][Panel 1][Horizontal1366]
+thickness=21
+
+[PlasmaViews][Panel 1][Horizontal1152]
+thickness=21
+
+[PlasmaViews][Panel 1][Horizontal1024]
+thickness=21
+
+[PlasmaViews][Panel 1][Horizontal864]
+thickness=21
+
+[PlasmaViews][Panel 1][Horizontal800]
+thickness=21
+
+
+
+
+[PlasmaViews][Panel 17][Horizontal2048]
+alignment=132
+maxLength=1366
+minLength=116
+panelVisibility=2
+thickness=42
+
+[PlasmaViews][Panel 17][Horizontal1920]
+alignment=132
+maxLength=1366
+minLength=116
+panelVisibility=2
+thickness=42
+
+[PlasmaViews][Panel 17][Horizontal1916]
+alignment=132
+maxLength=1366
+minLength=116
+panelVisibility=2
+thickness=42
+
+[PlasmaViews][Panel 17][Horizontal1900]
+alignment=132
+maxLength=1366
+minLength=116
+panelVisibility=2
+thickness=42
+
+[PlasmaViews][Panel 17][Horizontal1680]
+alignment=132
+maxLength=1366
+minLength=116
+panelVisibility=2
+thickness=42
+
+[PlasmaViews][Panel 17][Horizontal1600]
+alignment=132
+maxLength=1366
+minLength=116
+panelVisibility=2
+thickness=42
+
+[PlasmaViews][Panel 17][Horizontal1440]
+alignment=132
+maxLength=1366
+minLength=116
+panelVisibility=2
+thickness=42
+
+[PlasmaViews][Panel 17][Horizontal1200]
+alignment=132
+maxLength=1366
+minLength=116
+panelVisibility=2
+thickness=42
+
+[PlasmaViews][Panel 17][Horizontal1280]
+alignment=132
+maxLength=1366
+minLength=116
+panelVisibility=2
+thickness=42
+
+[PlasmaViews][Panel 17][Horizontal1366]
+alignment=132
+maxLength=1366
+minLength=116
+panelVisibility=2
+thickness=42
+
+[PlasmaViews][Panel 17][Horizontal1152]
+alignment=132
+maxLength=1366
+minLength=116
+panelVisibility=2
+thickness=42
+
+[PlasmaViews][Panel 17][Horizontal1024]
+alignment=132
+maxLength=1366
+minLength=116
+panelVisibility=2
+thickness=42
+
+[PlasmaViews][Panel 17][Horizontal864]
+alignment=132
+maxLength=1366
+minLength=116
+panelVisibility=2
+thickness=42
+
+[PlasmaViews][Panel 17][Horizontal800]
+alignment=132
+maxLength=1366
+minLength=116
+panelVisibility=2
+thickness=42
+
+[Updates]
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js
