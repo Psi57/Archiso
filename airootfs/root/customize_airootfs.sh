@@ -26,7 +26,3 @@ systemctl set-default graphical.target
 systemctl enable NetworkManager.service
 
 passwd -u root
-
-rm -rvf /usr/share/fcitx/skin/classic
-rm -rvf /usr/share/fcitx/skin/default
-
