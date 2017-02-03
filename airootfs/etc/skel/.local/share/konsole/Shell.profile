@@ -1,6 +1,6 @@
 [Appearance]
 BoldIntense=true
-ColorScheme=One
+ColorScheme=Breeze
 Font=Monospace,10,-1,5,50,0,0,0,0,0
 
 [General]

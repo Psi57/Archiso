@@ -25,4 +25,9 @@ systemctl enable pacman-init.service choose-mirror.service
 systemctl set-default graphical.target
 systemctl enable NetworkManager.service
 
+passwd -d root
 passwd -u root
+
+useradd -m -G wheel -s /bin/zsh archiso
+passwd -d archiso
+passwd -u archiso

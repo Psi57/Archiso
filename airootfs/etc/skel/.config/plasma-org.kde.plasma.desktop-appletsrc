@@ -132,7 +132,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][17][Applets][18][Configuration][General]
-launchers=file:///usr/share/applications/org.kde.konsole.desktop,file:///usr/share/applications/systemsettings.desktop,file:///usr/share/applications/firefox.desktop,file:///usr/share/applications/org.kde.kate.desktop,file:///usr/share/applications/org.kde.dolphin.desktop,file:///usr/share/applications/org.kde.gwenview.desktop
+launchers=file:///usr/share/applications/org.kde.konsole.desktop,file:///usr/share/applications/systemsettings.desktop,file:///usr/share/applications/firefox.desktop,file:///usr/share/applications/org.kde.kate.desktop,file:///usr/share/applications/org.kde.dolphin.desktop,file:///usr/share/applications/org.kde.gwenview.desktop,file:///usr/share/applications/vlc.desktop
 maxStripes=1
 middleClickAction=NewInstance
 
@@ -141,10 +141,10 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][17][Applets][19][Configuration][Appearance]
-dateFormat=longDate
+dateFormat=isoDate
 displayTimezoneAsCode=false
 showDate=true
-showLocalTimezone=true
+showLocalTimezone=false
 use24hFormat=2
 
 [Containments][17][Applets][19][Configuration][ConfigDialog]

@@ -1,0 +1,16 @@
+[Compositing]
+AnimationSpeed=2
+
+[Windows]
+BorderlessMaximizedWindows=true
+
+[org.kde.kdecoration2]
+BorderSize=None
+ButtonsOnLeft=S
+ButtonsOnRight=HIAX
+CloseOnDoubleClickOnMenu=false
+library=org.kde.breeze
+
+[Desktops]
+Number=2
+Rows=1

@@ -1,0 +1,10 @@
+[General]
+ColorScheme=Breeze
+Name=Breeze
+fixed=Monospace,9,-1,5,50,0,0,0,0,0
+font=Sans Serif,9,-1,5,50,0,0,0,0,0
+menuFont=Sans Serif,9,-1,5,50,0,0,0,0,0
+shadeSortColumn=true
+smallestReadableFont=Sans Serif,7,-1,5,50,0,0,0,0,0
+toolBarFont=Sans Serif,8,-1,5,50,0,0,0,0,0
+widgetStyle=Breeze

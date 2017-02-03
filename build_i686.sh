@@ -62,6 +62,7 @@ make_packages() {
     setarch ${arch} mkarchiso ${verbose} -w "${work_dir}/${arch}" -C "${work_dir}/pacman.conf" -D "${install_dir}" -p "$(grep -h -v ^# ${script_path}/packages.{both,${arch}})" install
 }
 
+
 # Copy mkinitcpio archiso hooks and build initramfs (airootfs)
 make_setup_mkinitcpio() {
     local _hook
@@ -93,6 +94,7 @@ make_customize_airootfs() {
     curl -o ${work_dir}/${arch}/airootfs/etc/pacman.d/mirrorlist 'https://www.archlinux.org/mirrorlist/?country=all&protocol=http&use_mirror_status=on'
 
     lynx -dump -nolist 'https://wiki.archlinux.org/index.php/Installation_Guide?action=render' >> ${work_dir}/${arch}/airootfs/root/install.txt
+    lynx -display_charset=utf-8 -dump -nolist 'https://wiki.archlinux.org/index.php/Installation_guide_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)?action=render' >> ${work_dir}/${arch}/airootfs/ro$
 
     setarch ${arch} mkarchiso ${verbose} -w "${work_dir}/${arch}" -C "${work_dir}/pacman.conf" -D "${install_dir}" -r '/root/customize_airootfs.sh' run
     rm ${work_dir}/${arch}/airootfs/root/customize_airootfs.sh
@@ -138,7 +140,6 @@ make_isolinux() {
     cp ${work_dir}/${arch}/airootfs/usr/lib/syslinux/bios/ldlinux.c32 ${work_dir}/iso/isolinux/
 }
 
-
 # Build airootfs filesystem image
 make_prepare() {
     cp -a -l -f ${work_dir}/${arch}/airootfs ${work_dir}
@@ -180,6 +181,7 @@ while getopts 'N:V:L:D:w:o:g:vh' arg; do
            ;;
     esac
 done
+
 mkdir -p ${work_dir}
 
 run_once make_pacman_conf
@@ -203,7 +205,6 @@ done
 run_once make_boot_extra
 run_once make_syslinux
 run_once make_isolinux
-
 
 for arch in i686; do
     run_once make_prepare
