@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="addon">
+    <id>org.kde.activeWindowControl</id>
+    <extends>org.kde.plasmashell</extends>
+    <name>Active Window Control</name>
+    <summary>Plasmoid for advanced active window control.</summary>
+    <url type="homepage">https://github.com/kotelnik/plasma-applet-active-window-control</url>
+    <developer_name>Kotelnik &lt;clearmartin@seznam.cz&gt;</developer_name>
+    <project_license>GPL2</project_license>
+    <metadata_license>CC0-1.0</metadata_license>
+</component>

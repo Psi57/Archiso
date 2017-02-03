@@ -278,3 +278,5 @@ for arch in i686 x86_64; do
 done
 
 run_once make_iso
+
+sed $(($A-3+1)),${A}d pacman.conf
